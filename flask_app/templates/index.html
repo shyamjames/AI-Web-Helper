@@ -133,10 +133,9 @@
             font-size: 1.8rem;
             letter-spacing: 2px;
             font-style: italic;
-            background: linear-gradient(to right, #fff, var(--primary-color));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+            color: #ffffff;
+            /* Whitish color */
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
         }
 
         /* Chat Area */
@@ -270,7 +269,6 @@
     <div class="glass-container">
         <header class="header">
             <div class="logo-area">
-                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Silvia Logo" class="logo-img">
                 <h1>Silvia.AI</h1>
             </div>
             <form action="/clear" method="POST" id="clearForm">
@@ -283,8 +281,6 @@
         <div class="chat-area" id="chat-container">
             {% if not history %}
             <div style="text-align: center; margin-top: 50px; opacity: 0.7;">
-                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Silvia Logo"
-                    style="height: 100px; margin-bottom: 20px; filter: drop-shadow(0 0 20px var(--primary-color));">
                 <p style="font-family: 'Orbitron', sans-serif; letter-spacing: 1px;">SYSTEM ONLINE. AWAITING INPUT.</p>
             </div>
             {% endif %}
