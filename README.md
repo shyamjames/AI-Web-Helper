@@ -1,13 +1,11 @@
 # Silvia.AI (formerly AI Web Assistant)
 
-**Silvia.AI** is a futuristic, AI-powered web assistant featuring a custom "Glassmorphism" UI and a dedicated Python library for AI interaction.
+**Silvia.AI** is a futuristic, AI-powered web assistant and a dedicated Python library for AI interaction.
 
 ![Silvia.AI Home](https://github.com/shyamjames/AI-Web-Helper/blob/main/img/silvia.png?raw=true)
 
 ## Features
 
-*   **Silvia.AI Branding**: A cyberpunk/synthwave aesthetic with a custom lightning bolt logo.
-*   **Glassmorphism UI**: Dark, translucent interface with neon accents.
 *   **AI Chat**: Powered by Google Gemini (via `ai_web_helper` library).
 *   **Text Summarization**: Instantly summarize long blocks of text.
 *   **Persistent History**: Chat sessions are saved.
