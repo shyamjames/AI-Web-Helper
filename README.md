@@ -2,8 +2,7 @@
 
 **Silvia.AI** is a futuristic, AI-powered web assistant featuring a custom "Glassmorphism" UI and a dedicated Python library for AI interaction.
 
-![Silvia.AI Home](https://github.com/shyamjames/AI-Web-Helper/blob/main/silvia_home_1764926351366.png?raw=true)
-*(Note: You may need to update this image link after pushing screenshots)*
+![Silvia.AI Home](https://github.com/shyamjames/AI-Web-Helper/blob/main/img/silvia.png?raw=true)
 
 ## Features
 
